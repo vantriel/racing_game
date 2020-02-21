@@ -11,7 +11,7 @@ namespace racing_game
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            var titleart = File.ReadAllText(@"strings\titleart.txt");  
+            var titleart = File.ReadAllText(@"Strings\titleart.txt");  
             Console.WriteLine(titleart);
         }
         
