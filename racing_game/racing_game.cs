@@ -17,6 +17,7 @@ namespace racing_game
             var menu = new CMenu();
             //render titlescreen
             menu.TitleScreen();
+            menu.MainMenu();
             //creation of car objects
             var car0 = new CCar();
             var car1 = new CCar();

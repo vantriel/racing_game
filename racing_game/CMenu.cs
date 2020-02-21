@@ -17,7 +17,11 @@ namespace racing_game
         
         public void MainMenu()
         {
-            
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.White;
+            var mainmenu = File.ReadAllText(@"Strings\mainmenu.txt");  
+            Console.WriteLine(mainmenu);    
         }
     }
 }

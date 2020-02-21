@@ -45,6 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Strings\mainmenu.txt" />
     <Content Include="strings\titleart.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
