@@ -21,9 +21,9 @@ namespace racing_game
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            var titleart = File.ReadAllText(@"Strings\titleart.txt");
+            var titleart = File.ReadAllText(@"Content\Strings\titleart.dat");
             Console.WriteLine(titleart);
-            Console.WriteLine("\nPress any key to continue...");
+            Console.Write("\nPress any key to continue...");
             char input = Console.ReadKey().KeyChar;
             return input;
         }
@@ -33,7 +33,7 @@ namespace racing_game
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            var mainmenu = File.ReadAllText(@"Strings\mainmenu.txt");  
+            var mainmenu = File.ReadAllText(@"Content\Strings\mainmenu.dat");  
             Console.WriteLine(mainmenu);
             char input = Console.ReadKey().KeyChar;
             return input;
@@ -44,7 +44,7 @@ namespace racing_game
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            var garagemenu = File.ReadAllText(@"Strings\garagemenu.txt");
+            var garagemenu = File.ReadAllText(@"Content\Strings\garagemenu.dat");
             Console.WriteLine(garagemenu);
             char input = Console.ReadKey().KeyChar;
             return input;
@@ -62,7 +62,7 @@ namespace racing_game
         }
         public void DrawCar()
         {
-            var car = File.ReadAllText(@"Strings\car.txt");   
+            var car = File.ReadAllText(@"Content\Strings\car.dat");   
             Console.WriteLine(car);
         }
 

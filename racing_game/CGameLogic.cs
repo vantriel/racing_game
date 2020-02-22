@@ -23,6 +23,7 @@ namespace racing_game
             _audio.PlayLoop();
             //render titlescreen
             _ui.TitleScreen();
+            _audio.Stop();
             var exitV = 0;
             var garage = new CGarage();
             do

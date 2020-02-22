@@ -4,7 +4,7 @@ namespace racing_game
 {
     public class CAudio
     {
-        private System.Media.SoundPlayer _player = new System.Media.SoundPlayer(@"Audio\dejavu.wav");
+        private System.Media.SoundPlayer _player = new System.Media.SoundPlayer(@"Content\Audio\titlescreen.vta");
         
         public CAudio() {}
 
