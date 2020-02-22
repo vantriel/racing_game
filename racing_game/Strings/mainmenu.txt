@@ -12,7 +12,7 @@
 |                                                                |
 | 1) Start a race                                                |
 |                                                                |
-| 2) Visit your racing car garage                                |
+| 2) Visit the mod shop                                          |
 |                                                                |
 | 3) Exit                                                        |
 |                                                                |
@@ -21,4 +21,3 @@
 | Visit this project on GitHub!  github.com/vantriel/racing_game |
 |                                                                |
 +----------------------------------------------------------------+
-

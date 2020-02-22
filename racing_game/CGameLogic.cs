@@ -47,13 +47,52 @@ namespace racing_game
 
         private void Race(CGarage garage)
         {
-            
+            if (garage.Inv[0].Equals(null))
+            {
+                Console.WriteLine("Please create a garage first!");
+            }
+            else
+            {
+                Console.Beep();
+                if(garage.Inv[0].Zth >= garage.Inv[1].Zth)
+                { 
+                    _ui.WinnerScreen(garage.Inv[1]);
+                }
+                if (garage.Inv[0].Zth <= garage.Inv[1].Zth)
+                { 
+                    _ui.WinnerScreen(garage.Inv[0]);              
+                }
+
+                if (garage.Inv[0].Zth.Equals(garage.Inv[1].Zth))
+                {
+                    Console.WriteLine("Nobody won! :(");   
+                }
+            }
         }
 
         private CGarage Garage(CGarage garage)
         {
+            var tmpExitV = 0;
             CGarage tmpGarage = garage;
-            char input = _ui.GarageMenu();
+            do
+            {
+                char input = _ui.GarageMenu();
+                switch (input)
+                {
+                    case '1':
+                        _ui.CreateGarage(tmpGarage);
+                        break;
+                    case '2':
+                        _ui.ViewGarage(tmpGarage);
+                        break;
+                    case '3':
+                        tmpExitV = 1;
+                        break;
+                    default:
+                        break;
+                }
+            } while (tmpExitV.Equals(0));
+
             return tmpGarage;
         }
     }

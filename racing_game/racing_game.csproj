@@ -44,10 +44,17 @@
     <Compile Include="CDevUtils.cs" />
     <Compile Include="CGarage.cs" />
     <Compile Include="CUi.cs" />
+    <Compile Include="CUtils.cs" />
     <Compile Include="racing_game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Strings\car.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Strings\garagemenu.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Strings\mainmenu.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -4,7 +4,7 @@ namespace racing_game
     public class CGarage
     {
         //fields
-        private CCar[] _inv = new CCar[1];
+        private CCar[] _inv = new CCar[2];
         
         //constructor
         public CGarage() { }
