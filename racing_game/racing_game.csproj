@@ -40,7 +40,10 @@
   <ItemGroup>
     <Compile Include="CCar.cs" />
     <Compile Include="CCourse.cs" />
-    <Compile Include="CMenu.cs" />
+    <Compile Include="CGameLogic.cs" />
+    <Compile Include="CDevUtils.cs" />
+    <Compile Include="CGarage.cs" />
+    <Compile Include="CUi.cs" />
     <Compile Include="racing_game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
