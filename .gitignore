@@ -1,8 +1,5 @@
 /.idea/
 /.git/
-
-
 /racing_game/obj/
 /racing_game/bin/
 /racing_game/Content/Audio/
-/.release/
