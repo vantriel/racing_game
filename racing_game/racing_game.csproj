@@ -38,6 +38,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAudio.cs" />
     <Compile Include="CCar.cs" />
     <Compile Include="CCourse.cs" />
     <Compile Include="CGameLogic.cs" />
@@ -49,6 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Audio\dejavu.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Strings\car.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

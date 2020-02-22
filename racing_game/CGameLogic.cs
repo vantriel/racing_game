@@ -15,10 +15,12 @@ namespace racing_game
         //create userinterface and hidden devutils class
         private readonly CUi _ui = new CUi();
         private readonly CDevUtils _dev = new CDevUtils();
+        private CAudio _audio = new CAudio();
         public void Start()
         {
             //Initialize console windows
             _ui.InitializeConsole();
+            _audio.PlayLoop();
             //render titlescreen
             _ui.TitleScreen();
             var exitV = 0;
